@@ -18,13 +18,13 @@ class HangmanGame extends PureComponent {
 
 	render() {
     const images = [
-      hang0,
-      hang1,
-      hang2,
-      hang3,
-      hang4,
-      hang5,
-      hang6,
+      hangman0,
+      hangman1,
+      hangman2,
+      hangman3,
+      hangman4,
+      hangman5,
+      hangman6,
     ]
 
     const {word, guesses} = this.props
