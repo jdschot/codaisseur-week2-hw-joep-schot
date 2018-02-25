@@ -1,6 +1,6 @@
 import React, {PureComponent} from 'react'
 import PropTypes from 'prop-types'
-import LetterButton from './LetterButton'
+import GuessLetterButton from './guess-letter-button.js'
 import {connect} from 'react-redux'
 import {wrongGuesses} from '../functions'
 import {isWinner} from '../functions'
